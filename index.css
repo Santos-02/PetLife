@@ -27,17 +27,17 @@ header nav a {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 #inicio {
     display: flex;
     align-items: center;
     gap: 32px;
     padding: 24px 80px 128px 80px;
     position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 h1,
@@ -75,6 +75,24 @@ h2 {
     z-index: -10;
 }
 
+#start,
+#clinic,
+#faq {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#start img,
+#clinic img,
+#faq img {
+    width: 580px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 #clinica,
 #duvidas {
     display: flex;
@@ -102,6 +120,7 @@ h2 {
     margin: 0 auto;
 }
 
+
 .duvida {
     position: relative;
 }
@@ -117,6 +136,8 @@ h2 {
     position: absolute;
     top: 32px;
     right: 24px;
+    max-width: 100%;
+    height: auto;
 }
 
 .duvida .paragrafo {
