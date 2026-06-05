@@ -49,4 +49,6 @@ During this project, I practiced:
 
 ---
 
-Developed by João Lucas
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
